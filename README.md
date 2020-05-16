@@ -61,4 +61,21 @@ For this assignment, we recommend you compose your queries in a local file on yo
 
 If you find the output of your queries hard to read, you can append .pretty() to them to produce indented output.
 
+1) Retrieve all tweets that are replying to the user with screen name “globeandmail”
+2) Retrieve all tweets made by the user with screen name “MLHealthUnit”
+Submit a file called aggregations.js that contains a query for each of the following questions, using the MongoDB aggregation framework.
+
+Aggregations in MongoDB are summaries of a collection. They are similar in concept to the operations performed in a MapReduce. MongoDB aggregations are more restrictive than MapReduce, but their implementation is very efficient. See the following documents for details.
+
+https://docs.mongodb.com/v4.2/core/aggregation-introduction/
+
+https://docs.mongodb.com/manual/reference/operator/aggregation/
+
+3) Produce a list of users, together with the total number of times they tweeted, sorted in decreasing order.
+4) Produce a list of place names, together with the total number of tweets from that place name, sorted in decreasing order.
+5) Produce a list of users, together with the total number of replies to that user, sorted in decreasing order.
+6) Produce a list of users, together with the total number of hashtags used by that user, sorted in decreasing order.
+Submit a file called mapreduce.js that provides a mapper, reducer, and mongodb query to answer the question below.
+7) Produce a new collection that contains each hashtag used in the collection of tweets, along with the number of times that hashtag was used.
+
 
